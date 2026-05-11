@@ -11,9 +11,9 @@ int main(){
     };
 
     cout << "Enter a massage in English (A-Z characters only): ";//h
-    getline(cin, message);
+    getline(cin, message);//he
 
-    string fullMorseCode = "";
+    string fullMorseCode = "";//hgy
 
     cout << "\nOutput Morse code:" << endl;
 
