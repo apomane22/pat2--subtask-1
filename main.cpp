@@ -10,7 +10,7 @@ int main(){
         "..-", "...-", ".--", "-..-", "-.--", "--.." //from U to Z
     };
 
-    cout << "Enter a massage in English (A-Z characters only): ";
+    cout << "Enter a massage in English (A-Z characters only): ";//h
     getline(cin, message);
 
     string fullMorseCode = "";
