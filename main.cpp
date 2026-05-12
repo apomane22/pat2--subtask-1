@@ -17,7 +17,7 @@ int main(){
 
     cout << "\nOutput Morse code:" << endl;//.
 
-    for (int i = 0; i < message.length(); i++){
+    for (int i = 0; i < message.length(); i++){//,
         char ch = toupper(message[i]);//.
 
         if (ch >= 'A' && ch <= 'Z') {
