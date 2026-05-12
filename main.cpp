@@ -15,7 +15,7 @@ int main(){
 
     string fullMorseCode = "";//hgy
 
-    cout << "\nOutput Morse code:" << endl;
+    cout << "\nOutput Morse code:" << endl;//.
 
     for (int i = 0; i < message.length(); i++){
         char ch = toupper(message[i]);//.
